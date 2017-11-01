@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import DemoGallery from "./DemoGallery";
 
 const styles = StyleSheet.create({
   container: {
@@ -17,9 +18,7 @@ const styles = StyleSheet.create({
 
 const ProfileScreen = () => (
   <View style={styles.container}>
-    <Text style={styles.welcome}>
-      Profile Screen
-    </Text>
+    <DemoGallery/>
   </View>
 );
 
